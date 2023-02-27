@@ -32,6 +32,7 @@ body {
   transform: scale(0.36);
 }
 
+
 .page-wrap {
   position: fixed;
   top: 20px;
@@ -153,9 +154,6 @@ h1 {
   font-size: 32px;
 }
 
-h2 {
-  
-}
 p {
   font-size: 20px;
   line-height: 1.4;
@@ -216,6 +214,15 @@ a {
   z-index: 1;
   align-items: center;
   margin: -6.8em 1.1em;
+  transform: scale(0.36);
+}
+
+.sparkle-alt{
+  display: flex;
+  position: absolute;
+  z-index: 1;
+  align-items: center;
+  margin: -2.8em -0.2em;
   transform: scale(0.36);
 }
 
@@ -291,6 +298,28 @@ a {
 .val-row-catalog-item h3 {
   font-size: 25px;
   vertical-align: top;
+}
+
+.val-row-catalog-lgreen h2 {
+  display: flex;
+  font-size: 40px;
+  /* vertical-align: top; */
+  justify-content: center;
+  letter-spacing: 1.5px;
+  margin-top: 0.5%;
+  margin-bottom: 1%;
+  align-items: flex-start;
+}
+
+.val-row-catalog-blush h2 {
+  display: flex;
+  font-size: 40px;
+  /* vertical-align: top; */
+  justify-content: center;
+  letter-spacing: 1.5px;
+  margin-top: 0.5%;
+  margin-bottom: 1%;
+  align-items: flex-start;
 }
 
 /*Free google code (style was all inline, 
