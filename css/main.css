@@ -20,6 +20,7 @@ body {
   /* distribute font to entire site */
   font-family: 'Inconsolata', monospace;
   background-color: var(--salmon);  
+  overflow-x:hidden;
 }
 
 .sparkle img {
@@ -42,6 +43,7 @@ body {
   border-radius: 20px;
   overflow-y: auto;
   z-index:4;
+  overflow-x: hidden;
 }
 
 .img-logo {
@@ -93,6 +95,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
+  overflow-x: hidden;
 }
 
 .val-featured-image-menu {
@@ -201,6 +204,7 @@ a {
 .kitties {
   background-color: var(--white);
   padding: 20px 50px 20px 50px;
+  overflow-x: hidden;
 }
 
 .sparkle-small{
@@ -214,35 +218,38 @@ a {
 
 .val-row-catalog-lgreen {
   background-color: var(--lgreen);
-  min-width: 800px;
+  min-width: 700px;
   margin: 0em -5em;
   padding: 2.5%;
+  overflow-x: hidden;
 }
 
 .val-row-catalog-green {
   background-color: var(--green);
-  min-width: 800px;
+  min-width: 700px;
   margin: 0em -5em;
   padding: 2.5%;
+  overflow-x: hidden;
 }
 
 .val-row-catalog-yellow {
   background-color: var(--yellow);
-  min-width: 800px;
+  min-width: 700px;
   margin: 0em -5em;
   padding: 2.5%;
+  overflow-x: hidden;
 }
 
 .val-row-catalog-orange {
   background-color: var(--orange);
-  min-width: 800px;
+  min-width: 700px;
   margin: 0em -5em;
   padding: 2.5%;
 }
 
 .val-row-catalog-peach {
   background-color: var(--peach);
-  min-width: 800px;
+  min-width: 700px;
   margin: 0em -5em;
   padding: 2.5%;
 }
