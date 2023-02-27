@@ -1,0 +1,323 @@
+/* Place CSS styles here */
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  --salmon: #FF9570;
+  --white:  #faf0e6;
+  --olive:  #D3F015;
+  --slime:  #EDFB93;
+  --green:  #d0dd28;  
+  --orange: #ffd071;
+  --blush:  #f59db2;
+  --lgreen: #d8e589;
+  --yellow: #feed76;
+  --peach:  #fccba8;
+}
+
+body {
+  /* distribute font to entire site */
+  font-family: 'Inconsolata', monospace;
+  background-color: var(--salmon);  
+}
+
+.sparkle img {
+  display:flex;
+  align-items:flex-end;
+  position: fixed;
+  z-index:5;
+  margin: -8.98em -6.77em;
+  transform: scale(0.36);
+}
+
+.page-wrap {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  left: 20px;
+  bottom: 20px;
+  margin:auto;
+  background: var(--white);
+  border-radius: 20px;
+  overflow-y: auto;
+  z-index:4;
+}
+
+.img-logo {
+  display: flex;
+  height: 110px;
+  margin: 1% 1%;
+  position: fixed;
+  z-index: 3;
+}
+
+.val-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  padding: .3%;
+  min-width: 65em;
+  margin: 1em 8.4em;
+  border-radius: 30px;
+  background-color: var(--slime);
+  position: fixed;
+  z-index: 2;
+}
+
+.val-header a{
+  text-decoration: none;
+}
+
+.val-header a:hover {
+  color: #9B1FF4;
+  border-radius: 20%;
+  text-decoration: none;
+}
+
+.valheader img{
+  margin-top: auto;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  justify-content: last baseline;
+}
+
+/*Background Images*/
+
+.val-featured-image {
+  min-height: 800px;
+  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(../img/img-concept02.jpg);
+  /* These 3 rules are normally used in sets for centered background-images */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.val-featured-image-menu {
+  min-height: 800px;
+  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(../img/shutterstock_1103021678.jpg);
+  /* These 3 rules are normally used in sets for centered background-images */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.val-featured-image-reservations {
+  min-height: 800px;
+  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(../img/Reservations.jpg);
+  /* These 3 rules are normally used in sets for centered background-images */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.val-featured-image-events {
+  min-height: 800px;
+  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(../img/Reservations.jpg);
+  /* These 3 rules are normally used in sets for centered background-images */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+
+.val-featured-image-availcats {
+  min-height: 800px;
+  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(../img/Reservations.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.val-featured-image-pastadopt {
+  min-height: 800px;
+  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(../img/Reservations.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+/* Distribute font to all headings */
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', monospace;
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 64px;
+}
+
+p {
+  font-size: 20px;
+  line-height: 1.4;
+}
+
+/* homepage */
+.tom-and-jerry-wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+  border: 1px solid #999;
+  border-radius: 12px;
+  padding: 12px 24px;
+}
+
+.tom-and-jerry-enter-image {
+  text-align: center;
+}
+
+
+.tom-and-jerry-ups-image img {
+  border: 4px solid red;
+  padding: 20px;
+  margin: 20px;
+}
+
+a {
+  color: black;
+  font-size: 20 px;
+}
+
+
+
+.tom-and-jerry-center {
+  text-align: center;
+}
+
+
+.val-row-3-tiles {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  border: 1px solid #888;
+  border-radius: 12px;
+}
+
+/* Catalogue Classes, variable colors, sparkle detail*/
+
+.kitties {
+  background-color: var(--white);
+  padding: 20px 50px 20px 50px;
+}
+
+.sparkle-small{
+  display: flex;
+  position: absolute;
+  z-index: 1;
+  align-items: center;
+  margin: -6.8em 1.1em;
+  transform: scale(0.36);
+}
+
+.val-row-catalog-lgreen {
+  background-color: var(--lgreen);
+  min-width: 800px;
+  margin: 0em -5em;
+  padding: 2.5%;
+}
+
+.val-row-catalog-green {
+  background-color: var(--green);
+  min-width: 800px;
+  margin: 0em -5em;
+  padding: 2.5%;
+}
+
+.val-row-catalog-yellow {
+  background-color: var(--yellow);
+  min-width: 800px;
+  margin: 0em -5em;
+  padding: 2.5%;
+}
+
+.val-row-catalog-orange {
+  background-color: var(--orange);
+  min-width: 800px;
+  margin: 0em -5em;
+  padding: 2.5%;
+}
+
+.val-row-catalog-peach {
+  background-color: var(--peach);
+  min-width: 800px;
+  margin: 0em -5em;
+  padding: 2.5%;
+}
+
+.val-row-catalog-blush {
+  background-color: var(--blush);
+  min-width: 800px;
+  margin: 0em -5em;
+  padding: 2.5%;
+}
+
+.val-row-catalog-item {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.val-row-catalog-item span {
+  margin-left: 10px;
+}
+
+.val-row-catalog-item p {
+  max-width: 60ch;
+  background-color: none;
+}
+.val-row-catalog-item img {
+  max-height: 200px;
+  max-width: 200px;
+  object-fit: cover;
+  border: 20px;
+  border-radius: 20px;
+  justify-items: center;
+}
+
+.val-row-catalog-item h3 {
+  font-size: 25px;
+  vertical-align: top;
+}
+
+/*Free google code (style was all inline, 
+switched to divs, added z-index to fix map going \
+over fixed nav bar*/
+
+.mapouter{
+  position:inherit;
+  text-align:right;
+  height:500px;
+  width:600px;
+  z-index: auto;
+}
+.gmap_canvas {
+  position:inherit;
+  z-index: auto; 
+  height:500px;
+  width:600px;
+}
+
+/*Footer Classes*/
+
+footer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer img {
+  width: 40px;
+}
+
+label {
+  display: block;
+  font: 1rem 'Inconsolata', \;
+}
+
+input,
+label {
+  margin: 0.4rem 0;
+}
