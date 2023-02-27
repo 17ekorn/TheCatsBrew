@@ -97,6 +97,7 @@ body {
   background-size: cover;
   background-position: center center;
   overflow-x: hidden;
+  margin-bottom: 20%;
 }
 
 .val-featured-image-menu {
@@ -143,7 +144,35 @@ body {
   background-position: center center;
 }
 
-/* Distribute font to all headings */
+/* Text Attributes */
+
+.header-center{
+  display: flex;
+  position: absolute;
+  justify-content: center;
+}
+
+.header-center h1 {
+  display: flex;
+  font-size: 185px;
+  color: #faf0e6;
+  /* justify-content: left; */
+  flex-direction: column;
+  flex-wrap: nowrap;
+  /* align-items: center; */
+}
+
+.header-center h2 {
+  display: flex;
+  font-size: 30px;
+  color: #faf0e6;
+  margin-left: -59.5%;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+  margin-top: 20%;
+}
+
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Playfair Display', monospace;
@@ -196,10 +225,11 @@ a {
   justify-content: center;
   gap: 20px;
   padding: 20px;
-  border: 1px solid #888;
-  border-radius: 12px;
 }
 
+.val-row-3-tile {
+
+}
 /* Catalogue Classes, variable colors, sparkle detail*/
 
 .kitties {
