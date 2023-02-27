@@ -150,9 +150,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 64px;
+  font-size: 32px;
 }
 
+h2 {
+  
+}
 p {
   font-size: 20px;
   line-height: 1.4;
