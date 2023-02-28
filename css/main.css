@@ -140,7 +140,7 @@ body {
 
 .val-featured-image {
   min-height: 800px;
-  background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url(../img/img-concept02.jpg);
+  background: url(../img/homepagecpy.png);
   /* These 3 rules are normally used in sets for centered background-images */
   background-repeat: no-repeat;
   background-size: cover;
