@@ -5,7 +5,8 @@ html {
 
 :root {
   --salmon: #FF9570;
-  --white:  #faf0e6;
+  --offwhite:  #faf0e6;
+  --white: #ffffff;
   --olive:  #D3F015;
   --slime:  #EDFB93;
   --green:  #d0dd28;  
@@ -24,7 +25,7 @@ html {
 
 .button {
   border:none;
-  color: var(--white);
+  color: var(--offwhite);
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
@@ -41,7 +42,7 @@ html {
 }
 .button1:hover {
   background-color: var(--buttonhover)!important;
-  color: var(--white);
+  color: var(--offwhite);
 }
 
 .link-fakebutton {
@@ -58,7 +59,7 @@ html {
 
 .link-fakebutton a{
   background-color: var(--buttonhover)!important;
-  color: var(--white);
+  color: var(--offwhite);
 }
 
 
@@ -86,7 +87,7 @@ body {
   left: 20px;
   bottom: 20px;
   margin:auto;
-  background: var(--white);
+  background: var(--offwhite);
   border-radius: 20px;
   overflow-y: auto;
   z-index:4;
@@ -153,6 +154,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
+  margin-bottom: 20%;
 }
 
 .val-featured-image-reservations {
@@ -162,6 +164,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
+  margin-bottom: 20%;
 }
 
 .val-featured-image-events {
@@ -216,7 +219,7 @@ body {
 .header-center h2 {
   display: flex;
     font-size: 30px;
-    color: #faf0e6;
+    color: var(--white);
     justify-content: center;
     align-content: center;
     margin-top: -15%;
@@ -249,6 +252,30 @@ body {
   justify-content: center;
   margin-top: 83%;
   margin-left: 10%;
+}
+
+.header-center-adopt {
+  display: inline-block;
+  position: absolute;
+}
+
+.header-center-adopt h1 {
+  display: flex;
+  font-size: 185px;
+  color: var(--white);
+  justify-content: center;
+  margin-top: 14%;
+  margin-bottom: -2%;
+  margin-left: 1%;
+}
+
+.header-center-adopt h2 {
+  display: flex;
+  font-size: 30px;
+  color: var(--white);
+  justify-content: center;
+  align-content: center;
+  margin-left: -40%;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -309,7 +336,7 @@ a {
   text-align:center;
   justify-content: center;
   gap: 50px;
-  font-size: 30px;
+  font-size: 25px;
   padding: 40px;
 }
 
@@ -324,10 +351,11 @@ a {
   flex-direction: row;
 }
 
+
 /* Catalogue Classes, variable colors, sparkle detail*/
 
 .kitties {
-  background-color: var(--white);
+  background-color: var(--offwhite);
   padding: 20px 50px 20px 50px;
   overflow-x: hidden;
 }
@@ -477,6 +505,24 @@ a {
   margin-bottom: 1%;
   align-items: flex-start;
 }
+
+/*Menu Classes*/
+
+.aligncenter-menu {
+  text-align: center;
+  margin-left: auto;
+  justify-content: center;
+  max-width: 76ch;
+  margin-right: auto;
+  margin-top: -10%;
+}
+
+.aligncenter-menu h2{
+  font-size: 50px;
+  margin-top: 20%;
+  margin-bottom: 20%;
+}
+ 
 /*About Us Page style*/
 
 .about-us-center {
@@ -493,9 +539,15 @@ a {
   text-align: center;
   margin-left: auto;
   justify-content: center;
-  max-width: 60ch;
+  max-width: 65ch;
   margin-right: auto;
   margin-top: -10%;
+}
+
+.aligncenter h2{
+  font-size: 50px;
+  margin-top: 20%;
+  margin-bottom: 20%;
 }
  
 .catshape{
