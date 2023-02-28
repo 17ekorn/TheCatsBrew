@@ -214,11 +214,16 @@ a {
 }
 
 
-
 .tom-and-jerry-center {
   text-align: center;
 }
 
+
+
+/*Val Row Classes*/
+.val-row-3-tiles{
+  flex-direction: row;
+}
 
 .val-row-3-tiles {
   display: flex;
@@ -233,6 +238,11 @@ a {
   justify-items: center;
   min-height: 361px;
 }
+
+.val-row-3{
+  flex-direction: row;
+}
+
 /* Catalogue Classes, variable colors, sparkle detail*/
 
 .kitties {
@@ -353,6 +363,17 @@ a {
   margin-top: 0.5%;
   margin-bottom: 1%;
   align-items: flex-start;
+}
+/*About Us Page style*/
+
+.aboutuscenter {
+  align-items: center;
+  justify-items: center;
+}
+
+.catshape {
+  justify-content:center;
+  transform:scale(3);
 }
 
 /*Free google code (style was all inline, 
