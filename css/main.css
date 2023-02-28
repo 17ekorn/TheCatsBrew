@@ -14,14 +14,17 @@ html {
   --lgreen: #d8e589;
   --yellow: #feed76;
   --peach:  #fccba8;
+  --darkpink: #c0338d;
+  --periwinkle: #8997cc;
+  --desatpurple: #aa84bc;
   --black:  #000000;
   --button: #acddd4;
   --buttonhover: #1b1878;
 }
 
 .button {
-  background-color: var(--button);
-  color: var(--black);
+  border:none;
+  color: var(--white);
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
@@ -32,12 +35,32 @@ html {
 }
 
 .button1{
+  background-color: var(--button);
+  color: var(--black);
   border-radius:30px;
 }
-.button1 :hover {
-  background-color: var(--buttonhover);
+.button1:hover {
+  background-color: var(--buttonhover)!important;
   color: var(--white);
 }
+
+.link-fakebutton {
+  background-color:var(--button);
+  color: var(--black);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.link-fakebutton a{
+  background-color: var(--buttonhover)!important;
+  color: var(--white);
+}
+
 
 body {
   /* distribute font to entire site */
@@ -226,9 +249,6 @@ h1, h2, h3, h4, h5, h6 {
   
 }
 
-.aligncenter h2{
-
-}
 
 h1 {
   font-size: 32px;
@@ -367,6 +387,27 @@ a {
   padding: 2.5%;
 }
 
+.val-row-catalog-darkpink {
+  background-color: var(--darkpink);
+  min-width: 800px;
+  margin: 0em -5em;
+  padding: 2.5%;
+}
+
+.val-row-catalog-desatpurple {
+  background-color: var(--desatpurple);
+  min-width: 800px;
+  margin: 0em -5em;
+  padding: 2.5%;
+}
+
+.val-row-catalog-periwinkle{
+  background-color: var(--periwinkle);
+  min-width: 800px;
+  margin: 0em -5em;
+  padding: 2.5%;
+}
+
 .val-row-catalog-item {
   display: flex;
   gap: 20px;
@@ -393,7 +434,9 @@ a {
 
 .val-row-catalog-item h3 {
   font-size: 25px;
-  vertical-align: top;
+  display: inline-flex;
+  padding-right: 20%;
+  margin-bottom: -2%;
 }
 
 .val-row-catalog-lgreen h2 {
