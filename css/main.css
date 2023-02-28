@@ -367,13 +367,19 @@ a {
 /*About Us Page style*/
 
 .aboutuscenter {
+  display:flex;
   align-items: center;
   justify-items: center;
 }
 
-.catshape {
-  justify-content:center;
-  transform:scale(3);
+.aboutuscenter img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.catshape{
+  transform:scale(7);
+  min-width:500px;
 }
 
 /*Free google code (style was all inline, 
