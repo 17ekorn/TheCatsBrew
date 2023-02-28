@@ -148,7 +148,7 @@ body {
 
 .val-featured-image-menu {
   min-height: 800px;
-  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(../img/shutterstock_1103021678.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/shutterstock_1103021678.jpg);
   /* These 3 rules are normally used in sets for centered background-images */
   background-repeat: no-repeat;
   background-size: cover;
@@ -200,22 +200,30 @@ body {
 /* Text Attributes */
 
 .header-center{
-  display: flex;
+  display: inline-block;
   position: absolute;
-  justify-content: center;
 }
 
 .header-center h1 {
   display: flex;
   font-size: 185px;
   color: var(--white);
-  /* justify-content: left; */
-  flex-direction: column;
-  flex-wrap: nowrap;
-  /* align-items: center; */
+  justify-content: center;
+  margin-top: 40%;
+  margin-left: 10%;
 }
 
-.header-center-alt{
+.header-center h2 {
+  display: flex;
+    font-size: 30px;
+    color: #faf0e6;
+    justify-content: center;
+    align-content: center;
+    margin-top: -15%;
+
+}
+
+.header-center-alt {
   text-align: center;
   display: flex;
   margin-top: 3%;
@@ -227,21 +235,21 @@ body {
   text-align: center;
   font-size: 50px;
   color: var(--black);
-  /* justify-content: left; */
-  /* align-items: center; */
 }
 
-.header-center h2 {
+.header-center-menu {
+  display: inline-block;
+  position: absolute;
+}
+
+.header-center-menu h1 {
   display: flex;
-  font-size: 30px;
-  color: #faf0e6;
-  margin-left: -59.5%;
+  font-size: 185px;
+  color: var(--white);
   justify-content: center;
-  flex-wrap: wrap;
-  align-content: center;
-  margin-top: 20%;
+  margin-top: 83%;
+  margin-left: 10%;
 }
-
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Playfair Display', monospace;
@@ -329,7 +337,16 @@ a {
   position: absolute;
   z-index: 1;
   align-items: center;
-  margin: -6.8em 1.1em;
+  margin: -6.9em 1.1em;
+  transform: scale(0.36);
+}
+
+.sparkle-small2{
+  display: flex;
+  position: absolute;
+  z-index: 1;
+  align-items: center;
+  margin: -6.3em 2.1em;
   transform: scale(0.36);
 }
 
@@ -338,7 +355,7 @@ a {
   position: absolute;
   z-index: 1;
   align-items: center;
-  margin: -2.8em -0.2em;
+  margin: -3.1em -0.2em;
   transform: scale(0.36);
 }
 
@@ -435,7 +452,7 @@ a {
 .val-row-catalog-item h3 {
   font-size: 25px;
   display: inline-flex;
-  padding-right: 20%;
+  padding-right: 18%;
   margin-bottom: -2%;
 }
 
