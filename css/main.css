@@ -40,26 +40,29 @@ html {
   color: var(--black);
   border-radius:30px;
 }
+
 .button1:hover {
   background-color: var(--buttonhover);
   color: var(--offwhite);
 }
 
 .link-fakebutton {
-  background-color:var(--button);
-  color: var(--black);
+  background-color:var(--darkpink);
   padding: 15px 32px;
   text-align: center;
-  text-decoration: none;
   display: inline-block;
   font-size: 16px;
   margin: 4px 2px;
+  border-radius:30px;
   cursor: pointer;
 }
-
 .link-fakebutton a{
-  background-color: var(--buttonhover)!important;
-  color: var(--offwhite);
+  color: var(--white);
+}
+
+.link-fakebutton:hover{
+  display: inline-block;
+  background-color: var(--buttonhover);
 }
 
 
@@ -122,7 +125,6 @@ body {
 
 .val-header a:hover {
   color: #9B1FF4;
-  border-radius: 20%;
   text-decoration: none;
 }
 
