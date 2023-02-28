@@ -223,7 +223,6 @@ body {
     justify-content: center;
     align-content: center;
     margin-top: -15%;
-
 }
 
 .header-center-alt {
@@ -277,6 +276,22 @@ body {
   align-content: center;
   margin-left: -40%;
 }
+
+.header-center-content{
+  display: inline-block;
+  position: absolute;
+}
+
+.header-center-content h1 {
+  display: flex;
+  font-size: 185px;
+  color: var(--white);
+  justify-content: center;
+  margin-top: 22%;
+  margin-left: 3%;
+}
+
+
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Playfair Display', monospace;
@@ -535,6 +550,12 @@ a {
   align-items: center;
 }
 
+.about-us-center h2{
+  background-color: #f1f1f1;
+  padding: 20px 10px;
+  text-align: center;
+}
+
 .aligncenter{
   text-align: center;
   margin-left: auto;
@@ -556,22 +577,60 @@ a {
   margin-left: auto;
   margin-right: auto;
 }
+/*Contact Us*/
 
+.contact{
+  display:flex;
+  gap: 20px;
+}
+
+.contact-us{
+  display:inline-block;
+  text-align: center;
+  margin-left: auto;
+  max-width: 65ch;
+  margin-right: auto;
+  margin-top: -2%;
+}
+
+.aligncontact{
+  text-align: center;
+  margin-left: auto;
+  justify-content: center;
+  max-width: 65ch;
+  margin-right: auto;
+  margin-top: -10%;
+}
+
+.aligncontact h2{
+  font-size: 50px;
+  margin-bottom: 8%;
+}
+
+.aligncontact p{
+  margin-bottom:20%;
+}
+.contact-us h3{
+  max-width: 40ch;
+  font-size: 25px;
+  text-align: center;
+}
 /*Free google code (style was all inline, 
 switched to divs, added z-index to fix map going \
 over fixed nav bar*/
 
 .mapouter{
+  margin-left: auto;
   position:inherit;
   text-align:right;
-  height:500px;
+  height:700px;
   width:600px;
   z-index: auto;
 }
 .gmap_canvas {
   position:inherit;
   z-index: auto; 
-  height:500px;
+  height:700px;
   width:600px;
 }
 
