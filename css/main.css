@@ -41,7 +41,7 @@ html {
   border-radius:30px;
 }
 .button1:hover {
-  background-color: var(--buttonhover)!important;
+  background-color: var(--buttonhover);
   color: var(--offwhite);
 }
 
