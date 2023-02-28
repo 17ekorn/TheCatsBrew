@@ -17,6 +17,21 @@ html {
   --black:  #000000;
 }
 
+.button {
+  background-color: ;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button1{
+  border-radius:30px;
+}
 body {
   /* distribute font to entire site */
   font-family: 'Inconsolata', monospace;
