@@ -151,7 +151,7 @@ body {
 
 .val-featured-image-menu {
   min-height: 800px;
-  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../img/menubg.png);
+  background: url(../img/menubg.png);
   /* These 3 rules are normally used in sets for centered background-images */
   background-repeat: no-repeat;
   background-size: cover;
@@ -161,7 +161,7 @@ body {
 
 .val-featured-image-reservations {
   min-height: 800px;
-  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(../img/Reservations.jpg);
+  background: url(../img/reservationsbg.png);
   /* These 3 rules are normally used in sets for centered background-images */
   background-repeat: no-repeat;
   background-size: cover;
@@ -171,7 +171,7 @@ body {
 
 .val-featured-image-events {
   min-height: 800px;
-  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(../img/Reservations.jpg);
+  background: url(../img/events-bg.png);
   /* These 3 rules are normally used in sets for centered background-images */
   background-repeat: no-repeat;
   background-size: cover;
@@ -179,9 +179,9 @@ body {
 }
 
 
-.val-featured-image-availcats {
-  min-height: 800px;
-  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(../img/Reservations.jpg);
+.val-featured-image-adopt {
+  min-height: 668px;
+  background: url(../img/Adopt.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -189,11 +189,24 @@ body {
 
 .val-featured-image-pastadopt {
   min-height: 800px;
-  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(../img/Reservations.jpg);
+  background: url(../img/pastadopt.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
+  margin-top: -5%;
 }
+
+.val-featured-image-contact{
+  min-height: 800px;
+  background: url(../img/contactbg.png);
+  /* These 3 rules are normally used in sets for centered background-images */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  margin-bottom: 20%;
+  margin-top: -5%;
+}
+
 
 .val-featured-catshape {
   min-height: 500px;
@@ -227,20 +240,6 @@ body {
     margin-top: -15%;
 }
 
-.header-center-alt {
-  text-align: center;
-  display: flex;
-  margin-top: 3%;
-  justify-content: center;
-}
-
-.header-center-alt h1 {
-  display: flex;
-  text-align: center;
-  font-size: 50px;
-  color: var(--black);
-}
-
 .header-center-menu {
   display: inline-block;
   position: absolute;
@@ -255,6 +254,34 @@ body {
   margin-left: 10%;
 }
 
+.header-center-reserve {
+  display: inline-block;
+  position: absolute;
+}
+
+.header-center-reserve h1 {
+  display: flex;
+  font-size: 185px;
+  color: var(--white);
+  justify-content: center;
+  margin-top: 83%;
+  margin-left: 10%;
+}
+
+.header-center-events {
+  display: inline-block;
+  position: absolute;
+}
+
+.header-center-events h1 {
+  display: flex;
+  font-size: 185px;
+  color: var(--white);
+  justify-content: center;
+  margin-top: 75%;
+  margin-left: 8%;
+}
+
 .header-center-adopt {
   display: inline-block;
   position: absolute;
@@ -265,26 +292,31 @@ body {
   font-size: 185px;
   color: var(--white);
   justify-content: center;
-  margin-top: 14%;
-  margin-bottom: -2%;
-  margin-left: 1%;
+  margin-top: 80%;
+  margin-bottom: 11%;
+  margin-left: 9%;
 }
 
-.header-center-adopt h2 {
+.header-center-about{
+  text-align: center;
   display: flex;
-  font-size: 30px;
-  color: var(--white);
+  margin-top: 3%;
   justify-content: center;
-  align-content: center;
-  margin-left: -40%;
 }
 
-.header-center-content{
+.header-center-about h1 {
+  display: flex;
+  text-align: center;
+  font-size: 50px;
+  color: var(--black);
+}
+
+.header-center-contact{
   display: inline-block;
   position: absolute;
 }
 
-.header-center-content h1 {
+.header-center-contact h1 {
   display: flex;
   font-size: 185px;
   color: var(--white);
@@ -651,7 +683,7 @@ footer img {
 
 label {
   display: block;
-  font: 1rem 'Inconsolata', \;
+  font: 1rem 'Inconsolata', ;
 }
 
 input,
