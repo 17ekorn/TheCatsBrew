@@ -46,15 +46,21 @@ html {
   color: var(--offwhite);
 }
 
+.button2{
+  background-color: var(--button);
+  color: var(--black);
+  border-radius: 30px;
+}
+
 .link-fakebutton {
-  background-color:var(--darkpink);
-  padding: 15px 32px;
+  background-color: var(--darkpink);
+  padding: 10px 28px;
   text-align: center;
   display: inline-block;
   font-size: 16px;
-  margin: 4px 2px;
-  border-radius:30px;
-  cursor: pointer;
+  margin-left: 19px;
+  /* margin: -7px 24px; */
+  border-radius: 30px;
 }
 .link-fakebutton a{
   color: var(--white);
@@ -243,11 +249,11 @@ body {
 
 .header-center h2 {
   display: flex;
-    font-size: 30px;
-    color: var(--white);
-    justify-content: center;
-    align-content: center;
-    margin-top: -15%;
+  font-size: 30px;
+  color: var(--white);
+  justify-content: center;
+  align-content: center;
+  margin-top: -15%;
 }
 
 .header-center-menu {
@@ -345,7 +351,11 @@ h1, h2, h3, h4, h5, h6 {
 
 
 h1 {
-  font-size: 32px;
+  font-size: 55px;
+}
+
+h2{
+  font-size:50px;
 }
 
 p {
@@ -584,7 +594,6 @@ a {
 }
 
 .aligncenter-menu h2{
-  font-size: 50px;
   margin-top: 20%;
   margin-bottom: 20%;
 }
@@ -617,9 +626,39 @@ a {
 }
 
 .aligncenter h2{
-  font-size: 50px;
   margin-top: 20%;
   margin-bottom: 20%;
+  max-width: 65ch;
+  
+}
+
+.aligncenterlong1{
+  text-align: center;
+  margin-left: auto;
+  justify-content: center;
+  max-width: 115ch;
+  margin-right: auto;
+  margin-top: -10%;
+}
+
+.aligncenterlong1 h2{
+  margin-top: 20%;
+  margin-bottom: 20%;
+}
+
+.aligncenterlong2{
+  text-align: center;
+  margin-left: auto;
+  justify-content: center;
+  max-width: 115ch;
+  margin-right: auto;
+  margin-top: -10%;
+}
+
+.aligncenterlong2 h2{
+  margin-top: 20%;
+  margin-bottom: 20%;
+  
 }
  
 .catshape{
@@ -654,7 +693,6 @@ a {
 }
 
 .aligncontact h2{
-  font-size: 50px;
   margin-bottom: 8%;
 }
 
@@ -701,6 +739,7 @@ footer img {
 label {
   display: block;
   font: 2rem 'Inconsolata',bold;
+  text-align:center;
 }
 
 input{
@@ -717,6 +756,7 @@ input{
 
 input,
 label {
+  text-align:center;
   margin-left: auto;
   margin-right: auto;
   margin-top: 15px;
