@@ -241,19 +241,19 @@ body {
 .header-center h1 {
   display: flex;
   font-size: 185px;
-  color: var(--salmon);
+  color: var(--white);
   justify-content: center;
-  margin-top: 40%;
-  margin-left: 10%;
+  margin-top: 50%;
+  margin-left: 5%;
 }
 
 .header-center h2 {
   display: flex;
-  font-size: 30px;
+  font-size: 29px;
   color: var(--white);
   justify-content: center;
-  align-content: center;
-  margin-top: -15%;
+  margin-top: -18%;
+  margin-left: 0%;
 }
 
 .header-center-menu {
@@ -311,6 +311,20 @@ body {
   margin-top: 80%;
   margin-bottom: 11%;
   margin-left: 9%;
+}
+
+.header-center-pastadopt{
+  display: inline-block;
+  position: absolute;
+}
+
+.header-center-pastadopt h1 {
+  display: flex;
+  font-size: 185px;
+  color: var(--white);
+  justify-content: center;
+  margin-top: 66%;
+  margin-left: 3%;
 }
 
 .header-center-about{
