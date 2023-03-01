@@ -522,13 +522,6 @@ a {
   padding: 2.5%;
 }
 
-.val-row-catalog-darkpink {
-  background-color: var(--darkpink);
-  min-width: 800px;
-  margin: 0em -5em;
-  padding: 2.5%;
-}
-
 .val-row-catalog-desatpurple {
   background-color: var(--desatpurple);
   min-width: 800px;
@@ -615,7 +608,7 @@ a {
 /*About Us Page style*/
 
 .about-us-center {
-  background-color: #f1f1f1;
+  background-color: var(--offwhite);
   padding: 20px 10px;
   text-align: center;
 }
@@ -625,9 +618,15 @@ a {
 }
 
 .about-us-center h2{
-  background-color: #f1f1f1;
+  background-color: var(--offwhite);
   padding: 20px 10px;
   text-align: center;
+}
+
+.about-us-center p{
+  max-width: 65ch;
+  margin-left:auto;
+  margin-right:auto;
 }
 
 .aligncenter{
@@ -743,8 +742,8 @@ footer {
   display: flex;
   justify-content: flex-end;
 }
-.footbox{
-
+.valfooter{
+  
 }
 footer img {
   width: 40px;
