@@ -150,7 +150,7 @@ body {
 }
 
 .val-featured-image-menu {
-  min-height: 800px;
+  min-height: 650px;
   background: url(../img/menubg.png);
   /* These 3 rules are normally used in sets for centered background-images */
   background-repeat: no-repeat;
@@ -207,6 +207,16 @@ body {
   margin-top: -5%;
 }
 
+.val-featured-image-about {
+  min-height: 400px;
+  background: url(../img/aboutusbg.png);
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  margin-top: 10%;
+  margin-bottom:10%;
+}
 
 .val-featured-catshape {
   min-height: 500px;
@@ -321,7 +331,7 @@ body {
   font-size: 185px;
   color: var(--white);
   justify-content: center;
-  margin-top: 22%;
+  margin-top: 66%;
   margin-left: 3%;
 }
 
@@ -343,37 +353,37 @@ p {
   line-height: 1.4;
 }
 
-/* homepage */
-.tom-and-jerry-wrapper {
-  max-width: 800px;
-  margin: 0 auto;
-  border: 1px solid #999;
-  border-radius: 12px;
-  padding: 12px 24px;
-}
-
-.tom-and-jerry-enter-image {
-  text-align: center;
-}
-
-
-.tom-and-jerry-ups-image img {
-  border: 4px solid red;
-  padding: 20px;
-  margin: 20px;
-}
 
 a {
   color: black;
   font-size: 20 px;
 }
 
-
-.tom-and-jerry-center {
-  text-align: center;
+/*Menu-Item Classes*/
+.menuitem{
+  display: flex;
+  gap: 30px;
+  padding: 166px;
 }
 
+.menuitem img{
+  display:flex;
+  border: 20px;
+  min-height: 400px;
+  border-radius:30px;
+}
 
+.menuitem h1{
+  font-size: 40px;
+}
+
+.menuitem span{
+  margin-left: 10px;
+}
+
+.menuitem p{
+  max-width: 50ch;
+}
 
 /*Val Row Classes*/
 .val-row-3-tiles{
@@ -394,6 +404,13 @@ a {
   border-radius: 20px;
   justify-items: center;
   min-height: 361px;
+}
+
+.val-row-3-tile-alt img{
+  border: 20px;
+  border-radius: 20px;
+  justify-items: center;
+  min-height: 300px;
 }
 
 .val-row-3{
