@@ -451,7 +451,7 @@ a {
   position: absolute;
   z-index: 1;
   align-items: center;
-  margin: -6.9em 1.1em;
+  margin: -7em -0.2em;
   transform: scale(0.36);
 }
 
@@ -597,8 +597,8 @@ a {
 }
 
 .aligncenter-menu h2{
-  margin-top: 20%;
-  margin-bottom: 20%;
+  margin-top: 26%;
+  margin-bottom: 6%;
 }
  
 /*About Us Page style*/
@@ -790,6 +790,10 @@ footer img {
   max-width: 74ch;
   margin-right: auto;
   margin-top: -10%;
+}
+
+.buttonspace{
+  margin-bottom:4%;
 }
 
 label {
