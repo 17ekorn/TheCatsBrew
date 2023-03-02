@@ -68,7 +68,7 @@ html {
 
 .link-fakebutton:hover{
   display: inline-block;
-  background-color: var(--buttonhover);
+  background-color: var(--darkpurp);
 }
 
 
