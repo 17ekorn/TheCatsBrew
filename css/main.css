@@ -15,6 +15,7 @@ html {
   --lgreen: #d8e589;
   --yellow: #feed76;
   --peach:  #fccba8;
+  --darkpink: #c0338d;
   --darkpurp:  #9B1FF4;
   --periwinkle: #8997cc;
   --desatpurple: #aa84bc;
@@ -53,7 +54,7 @@ html {
 }
 
 .link-fakebutton {
-  background-color: var(--darkpurp);
+  background-color: var(--darkpink);
   padding: 10px 28px;
   text-align: center;
   display: inline-block;
