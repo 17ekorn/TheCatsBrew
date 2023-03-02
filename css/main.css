@@ -300,21 +300,6 @@ body {
   background-color: var(--black);
 }
 
-.header-center-pastadopt{
-  display: inline-block;
-  position: absolute;
-}
-
-.header-center-pastadopt h1 {
-  display: flex;
-  font-size: 185px;
-  color: var(--white);
-  justify-content: center;
-  margin-top: 10%;
-  margin-left: 3%;
-  background-color: var(--black);
-}
-
 .header-center-about{
   text-align: center;
   display: flex;
@@ -331,12 +316,12 @@ body {
 .header-center-contact{
   display: inline-block;
   position: absolute;
-  background-color: var(--black);
 }
 
 .header-center-contact h1 {
   display: flex;
   font-size: 185px;
+  background-color: var(--black);
   color: var(--white);
   justify-content: center;
   margin-top: 66%;
