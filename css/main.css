@@ -15,7 +15,7 @@ html {
   --lgreen: #d8e589;
   --yellow: #feed76;
   --peach:  #fccba8;
-  --darkpink: #c0338d;
+  --darkpurp:  #9B1FF4;
   --periwinkle: #8997cc;
   --desatpurple: #aa84bc;
   --black:  #000000;
@@ -105,8 +105,7 @@ body {
 
 .img-logo {
   display: flex;
-  height: 110px;
-  margin: 1% 1%;
+  height: 134px;
   position: fixed;
   z-index: 3;
 }
@@ -130,7 +129,7 @@ body {
 }
 
 .val-header a:hover {
-  color: #9B1FF4;
+  color: var(--darkpurp);
   text-decoration: none;
 }
 
