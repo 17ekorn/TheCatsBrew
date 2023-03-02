@@ -145,29 +145,19 @@ body {
 /*Background Images*/
 
 .val-featured-image {
-  min-height: 800px;
+  min-height: 656px;
   background: url(../img/homepagecpy.png);
   /* These 3 rules are normally used in sets for centered background-images */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
   overflow-x: hidden;
-  margin-bottom: 20%;
+
 }
 
 .val-featured-image-menu {
   min-height: 650px;
   background: url(../img/menubg.png);
-  /* These 3 rules are normally used in sets for centered background-images */
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  margin-bottom: 20%;
-}
-
-.val-featured-image-reservations {
-  min-height: 800px;
-  background: url(../img/reservationsbg.png);
   /* These 3 rules are normally used in sets for centered background-images */
   background-repeat: no-repeat;
   background-size: cover;
@@ -220,15 +210,15 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  margin-top: 10%;
-  margin-bottom:10%;
+  margin-top: 5%;
+  margin-bottom: 21%;
 }
 
 .val-featured-catshape {
   min-height: 500px;
   text-align: center;
-  transform: scale(1.6);
-  margin-top: 12%;
+  transform: scale(1.3);
+  margin-top: 4%;
 }
 
 /* Text Attributes */
@@ -245,6 +235,7 @@ body {
   justify-content: center;
   margin-top: 50%;
   margin-left: 5%;
+  background-color: var(--black);
 }
 
 .header-center h2 {
@@ -254,6 +245,7 @@ body {
   justify-content: center;
   margin-top: -18%;
   margin-left: 0%;
+  background-color: var(--black);
 }
 
 .header-center-menu {
@@ -268,6 +260,7 @@ body {
   justify-content: center;
   margin-top: 83%;
   margin-left: 10%;
+  background-color: var(--black);
 }
 
 .header-center-reserve {
@@ -282,6 +275,7 @@ body {
   justify-content: center;
   margin-top: 83%;
   margin-left: 10%;
+  background-color: var(--black);
 }
 
 .header-center-events {
@@ -296,6 +290,7 @@ body {
   justify-content: center;
   margin-top: 75%;
   margin-left: 8%;
+  background-color: var(--black);
 }
 
 .header-center-adopt {
@@ -311,6 +306,7 @@ body {
   margin-top: 80%;
   margin-bottom: 11%;
   margin-left: 9%;
+  background-color: var(--black);
 }
 
 .header-center-pastadopt{
@@ -325,19 +321,19 @@ body {
   justify-content: center;
   margin-top: 66%;
   margin-left: 3%;
+  background-color: var(--black);
 }
 
 .header-center-about{
   text-align: center;
   display: flex;
-  margin-top: 3%;
   justify-content: center;
 }
 
 .header-center-about h1 {
   display: flex;
   text-align: center;
-  font-size: 50px;
+  font-size: 100px;
   color: var(--black);
 }
 
@@ -473,7 +469,7 @@ a {
   position: absolute;
   z-index: 1;
   align-items: center;
-  margin: -3.1em -0.2em;
+  margin: -2.65em -0.2em;
   transform: scale(0.36);
 }
 
@@ -638,6 +634,29 @@ a {
   margin-top: -10%;
 }
 
+.aligncenterabout{
+  text-align: center;
+  margin-left: auto;
+  justify-content: center;
+  max-width: 65ch;
+  margin-right: auto;
+  margin-top: -17%;
+}
+
+.aligncenterabout h2 {
+  margin-top: 6%;
+  margin-bottom: 6%;
+  max-width: 65ch;
+}
+
+.alignpage{
+  text-align: center;
+  margin-left: auto;
+  justify-content: center;
+  margin-right: auto;
+  margin-top: -10%;
+}
+
 .aligncenter h2{
   margin-top: 20%;
   margin-bottom: 20%;
@@ -743,15 +762,39 @@ footer {
   justify-content: flex-end;
 }
 .valfooter{
-  
+  background-color: var(--slime);
+  min-width:1236px;
+  max-height:200px;
+  align-items: center;
+  text-align: center;
+}
+.valfooter ul{
+  text-decoration: none;
+  align-items: center;
+} 
+.valfooter li{
+  margin-top: 10px;
+  margin-bottom:5px;
+  display:inline-block;
+  text-decoration: none;
 }
 footer img {
   width: 40px;
 }
 /** FORMS**/
+
+.contactform{
+  text-align: center;
+  margin-left: auto;
+  justify-content: center;
+  max-width: 74ch;
+  margin-right: auto;
+  margin-top: -10%;
+}
+
 label {
   display: block;
-  font: 2rem 'Inconsolata',bold;
+  font: 2rem 'Inconsolata', monospace;
   text-align:center;
 }
 
@@ -769,9 +812,7 @@ input{
 
 input,
 label {
-  text-align:center;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: -19px;
   margin-top: 15px;
   margin-bottom: 15px;
 }
