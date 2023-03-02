@@ -183,15 +183,6 @@ body {
   background-position: center center;
 }
 
-.val-featured-image-pastadopt {
-  min-height: 800px;
-  background: url(../img/pastadopt.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  margin-top: -5%;
-}
-
 .val-featured-image-contact{
   min-height: 800px;
   background: url(../img/contactbg.png);
@@ -340,6 +331,7 @@ body {
 .header-center-contact{
   display: inline-block;
   position: absolute;
+  background-color: var(--black);
 }
 
 .header-center-contact h1 {
@@ -375,7 +367,7 @@ p {
 
 
 a {
-  color: black;
+  color: var(--black);
   font-size: 20 px;
 }
 
@@ -671,6 +663,7 @@ a {
   max-width: 115ch;
   margin-right: auto;
   margin-top: -10%;
+  margin-bottom: -10%;
 }
 
 .aligncenterlong1 h2{
@@ -760,6 +753,7 @@ over fixed nav bar*/
 footer {
   display: flex;
   justify-content: flex-end;
+  margin-top: 3%;
 }
 .valfooter{
   background-color: var(--slime);
